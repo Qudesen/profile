@@ -1,0 +1,94 @@
+body {
+    background-color: rgba(253, 233, 201, .1);
+    font-family: "Varela", sans-serif;
+    font-style: normal;
+}
+
+h1, h2, h3 {
+    color: #343434;
+}
+
+h1 {
+    font-size: 19px;
+}
+
+h2 {
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+button {
+    background-color: #EA5455;
+    color: #FDE9C9;
+    border-radius: 3px;
+    font-size: 1.1em;
+    box-shadow: 1px 1px 2px #EA5455;
+    border-color: #EA5455;
+    padding: 3px;
+}
+
+button:hover {
+    background-color: #2D4059;
+    color: #FDE9C9;
+    box-shadow: 1px 1px 2px #2D4059;
+    border-color: #2D4059
+}
+
+p {
+    line-height: 1.5em;
+    color: rgba(52, 52, 52, 0.85);
+}
+
+i {
+    color: #2D4059;
+    font-size: 17px;
+}
+
+i:hover {
+    color: rgba(0, 0, 0, 0.95)
+}
+
+.img-circle {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.container {
+    margin: 0 auto;
+    width: 60vw;
+    margin-top: 10px;
+}
+
+.card {
+    padding: 10px;
+    background-color: white;
+    box-shadow: 3px 3px 8px rgba(220, 220, 220, 0.4);
+    border-radius: 10px;
+    margin: 15px;
+}
+
+.list-inline > li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.list-inline {
+    padding-left: 0;
+    list-style: none;
+}
+
+@media (max-width: 560px) {
+    .container {
+        width: 90vw
+    }
+}
+
+@media (min-width: 1080px) {
+    .container {
+        width: 40vw
+    }
+}
