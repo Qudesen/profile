@@ -17,7 +17,8 @@ h2 {
     letter-spacing: 2px;
 }
 
-button {
+.cta-btn {
+    text-decoration: none;
     background-color: #EA5455;
     color: #FDE9C9;
     border-radius: 3px;
@@ -27,11 +28,12 @@ button {
     padding: 3px;
 }
 
-button:hover {
+.cta-btn:hover {
     background-color: #2D4059;
     color: #FDE9C9;
     box-shadow: 1px 1px 2px #2D4059;
-    border-color: #2D4059
+    border-color: #2D4059;
+    text-decoration: none;
 }
 
 p {
